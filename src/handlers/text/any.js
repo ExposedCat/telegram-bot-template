@@ -1,6 +1,6 @@
 import {
     any as processCommand
-} from '../../services/handlers/text/any.js'
+} from '../../services/any-message.js'
 
 
 async function handleAnyTextMessage(ctx) {

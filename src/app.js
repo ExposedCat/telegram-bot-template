@@ -1,4 +1,4 @@
-import { path } from './services/helpers/path-resolver.js'
+import { path } from './helpers/path-resolver.js'
 import { config as setConfigFile } from 'dotenv'
 
 import { initDatabaseConnection } from './config/database/database.js'

@@ -1,6 +1,6 @@
 import {
     start as processCommand
-} from '../../services/handlers/text/start.js'
+} from '../../services/start-command.js'
 
 
 async function handleStartCommand(ctx) {

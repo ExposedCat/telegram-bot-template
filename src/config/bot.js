@@ -1,10 +1,10 @@
-import { path } from '../services/helpers/path-resolver.js'
+import { path } from '../helpers/path-resolver.js'
 
 import Telegraf from 'telegraf'
 import { ExtendedContext } from './telegraf-context.js'
 
 import { initLocalesEngine } from './locales.js'
-import { processError } from '../services/helpers/global-errors-processor.js'
+import { processError } from '../helpers/global-errors-processor.js'
 
 import { handleStartCommand } from '../handlers/text/start.js'
 import { handleAnyTextMessage } from '../handlers/text/any.js'

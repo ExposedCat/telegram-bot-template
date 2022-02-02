@@ -1,7 +1,7 @@
 import Telegraf from 'telegraf'
 
-import { showPopup } from '../services/helpers/show-popup.js'
-import { sendMessage } from '../services/helpers/send-message.js'
+import { showPopup } from '../helpers/show-popup.js'
+import { sendMessage } from '../helpers/send-message.js'
 
 
 class ExtendedContext extends Telegraf.Context {

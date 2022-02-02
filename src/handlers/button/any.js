@@ -1,6 +1,6 @@
 import {
     any as processClick
-} from '../../services/handlers/button/any.js'
+} from '../../services/any-click.js'
 
 
 async function handleAnyButtonClick(ctx) {
