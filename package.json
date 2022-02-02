@@ -1,0 +1,23 @@
+{
+    "name": "telegram-bot",
+    "version": "1.0.0",
+    "description": "Telegram bot",
+    "main": "src/app.js",
+    "scripts": {
+        "start": "clear && node src/app.js"
+    },
+    "keywords": [
+        "bot",
+        "chat",
+        "telegram"
+    ],
+    "author": "ExposedCat",
+    "license": "GPL-3.0-or-later",
+    "dependencies": {
+        "dotenv": "^15.0.0",
+        "mongoose": "^6.0.8",
+        "telegraf": "3.39",
+        "telegraf-i18n": "^6.6.0"
+    },
+    "type": "module"
+}
