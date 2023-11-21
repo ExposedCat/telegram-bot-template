@@ -1,4 +1,5 @@
-# Telegram bot template
+# [DEPRECATED] Telegram bot template
+This repo is deprecated, see [ts-tg-bot](https://github.com/ExposedCat/ts-tg-bot)
 ## Dependencies
 - [Node.JS](https://nodejs.org/uk/download/package-manager/)  
   └─ `nodejs` package in your distro repos
